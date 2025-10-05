@@ -30,12 +30,9 @@ interface UseQuestionReturn {
 }
 
 const useQuestion = ({
-  formId,
   surveyFormUtils,
   validation,
   general,
-  id,
-  index,
   isEditMode = false,
 }: UseQuestionProps): UseQuestionReturn => {
   const [touched, setTouched] = useState(false);
