@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import useConfigPuckComponents from "./puck-config";
 import { FormField } from "../../components/punk/FormFields";
 import Preview from "./Preview";
+import '@measured/puck/puck.css';
 
 interface SurveyCreatorWrapperProps {}
 
