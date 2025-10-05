@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import useConfigPuckComponents from "./puck-config";
 import { FormField } from "../../components/punk/FormFields";
 import Preview from "./Preview";
-import '@measured/puck/puck.css';
+import "@measured/puck/puck.css";
 
 interface SurveyCreatorWrapperProps {}
 
@@ -61,12 +61,7 @@ export const SurveyCreatorWrapper: React.FC<SurveyCreatorWrapperProps> = () => {
         overrides={overrides}
         onChange={handleChangeData}
       >
-        <Stack
-          direction="row"
-          spacing={3}
-          width="100%"
-          height="100vh"
-        >
+        <Stack direction="row" spacing={3} width="100%" height="100vh">
           <Stack
             sx={{
               width: 240,
@@ -101,7 +96,7 @@ export const SurveyCreatorWrapper: React.FC<SurveyCreatorWrapperProps> = () => {
                 }}
               >
                 <Stack>
-                  <Puck.Preview />
+                    <Puck.Preview />
                 </Stack>
               </Grid>
               <Grid size={6}>
